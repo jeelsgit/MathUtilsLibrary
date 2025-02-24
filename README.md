@@ -13,7 +13,7 @@ This is a small Java library that provides simple math functions like adding, su
 
 ### 1. Download
 
-* Download the `MathUtilsLibrary.jar` and `MyProgram.java` files from this GitHub repository: [https://github.com/jeelsgit/MathUtilsLibrary.git](https://github.com/jeelsgit/MathUtilsLibrary.git)
+* Download the `MathUtilsLibrary.jar` and `MyProgram.java` files from this GitHub repository: https://github.com/jeelsgit/MathUtilsLibrary.git
 
 ### 2. Set Up
 
