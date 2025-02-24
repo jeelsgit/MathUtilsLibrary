@@ -38,7 +38,7 @@ This is a small Java library that provides simple math functions like adding, su
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/jeelsgit/MathUtilsLibrary.git](https://github.com/jeelsgit/MathUtilsLibrary.git)
+    git clone https://github.com/jeelsgit/MathUtilsLibrary.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
