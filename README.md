@@ -96,3 +96,10 @@ This project is licensed under the MIT License.
 ## Contact
 
 If you have questions, please open a GitHub issue or contact: tand0019@algonquinlive.com
+
+## Further Reading  
+- [Java Documentation](https://docs.oracle.com/en/java/javase/)  
+- [Oracle Guide on JAR Files](https://docs.oracle.com/javase/tutorial/deployment/jar/index.html)  
+- [Maven Central Repository](https://central.sonatype.org/)  
+- [GitHub Packages Guide](https://docs.github.com/en/packages)  
+
