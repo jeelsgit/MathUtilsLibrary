@@ -13,7 +13,7 @@ This is a small Java library that provides simple math functions like adding, su
 
 ### 1. Download
 
-* Download the `MathUtilsLibrary.jar` and `MyProgram.java` files from this GitHub repository: [GitHub Repository Link]
+* Download the `MathUtilsLibrary.jar` and `MyProgram.java` files from this GitHub repository: [https://github.com/jeelsgit/MathUtilsLibrary.git](https://github.com/jeelsgit/MathUtilsLibrary.git)
 
 ### 2. Set Up
 
@@ -38,7 +38,7 @@ This is a small Java library that provides simple math functions like adding, su
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/yourusername/MathUtilsLibrary.git](https://github.com/yourusername/MathUtilsLibrary.git)
+    git clone [https://github.com/jeelsgit/MathUtilsLibrary.git](https://github.com/jeelsgit/MathUtilsLibrary.git)
     ```
 2.  **Navigate to the project directory:**
     ```bash
@@ -51,7 +51,7 @@ This is a small Java library that provides simple math functions like adding, su
     ```
     The jar file will now be located in the main project directory.
 
-## Using Maven (if the library is in Maven Central)
+## Using Maven (If Deployed to Maven Central)
 
 Add this to your `pom.xml` file:
 
@@ -61,23 +61,25 @@ Add this to your `pom.xml` file:
     <artifactId>mathutils</artifactId>
     <version>1.0.0</version>
 </dependency>
+```
 
-## Example Code
+## Example Code (Java)
 
+```java
 import com.example.mathutils.MathUtils;
 
 public class MyProgram {
     public static void main(String[] args) {
         try {
-            int resultAdd = MathUtils.add(5, 3);
-            int resultSub = MathUtils.subtract(10, 4);
-            int resultMul = MathUtils.multiply(2, 6);
-            double resultDiv = MathUtils.divide(15, 3);
+            int additionResult = MathUtils.add(5, 3);
+            int subtractionResult = MathUtils.subtract(10, 4);
+            int multiplicationResult = MathUtils.multiply(2, 6);
+            double divisionResult = MathUtils.divide(15, 3);
 
-            System.out.println("Addition: " + resultAdd);
-            System.out.println("Subtraction: " + resultSub);
-            System.out.println("Multiplication: " + resultMul);
-            System.out.println("Division: " + resultDiv);
+            System.out.println("Addition: " + additionResult);
+            System.out.println("Subtraction: " + subtractionResult);
+            System.out.println("Multiplication: " + multiplicationResult);
+            System.out.println("Division: " + divisionResult);
         } catch (ArithmeticException e) {
             System.out.println("Error: " + e.getMessage());
         } catch (Exception e) {
@@ -85,3 +87,12 @@ public class MyProgram {
         }
     }
 }
+```
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+If you have questions, please open a GitHub issue or contact: tand0019@algonquinlive.com
