@@ -47,7 +47,7 @@ This is a small Java library that provides simple math functions like adding, su
 3.  **Compile and package the JAR:**
     ```bash
     javac -d bin -sourcepath src src/com/example/mathutils/MathUtils.java
-    jar cvf MathUtilsLibrary.jar -C bin .
+    jar cvf MathUtilsLibrary.jar -C bin
     ```
     The jar file will now be located in the main project directory.
 
